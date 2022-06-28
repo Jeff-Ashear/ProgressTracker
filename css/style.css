@@ -2,6 +2,16 @@
     padding-left: 5%;
 }
 
+hr {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.timerCard {
+    margin-left: 5%;
+    margin-left: 5%;
+}
+
 body {
     padding-top: 60px;
   }
