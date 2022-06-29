@@ -69,9 +69,9 @@ function timer() {
     }
     console.log(hourOut + ":" + minOut + ":" + secOut + ":" + miliSecOut)
     document.getElementById("miliSec").innerHTML = miliSecOut
-    document.getElementById("sec").innerHTML = secOut
-    document.getElementById("min").innerHTML = minOut
-    document.getElementById("hour").innerHTML = hourOut
+    document.getElementById("sec").innerHTML = secOut + ":"
+    document.getElementById("min").innerHTML = minOut + ":"
+    document.getElementById("hour").innerHTML = hourOut + ":"
 }
 
 // adds a zero if value is <10

@@ -61,10 +61,12 @@
         </div>
         <div class="card-body timerCard">
           <h5 class="card-title">Jeff's Lifetime Codeclock</h5>
-          <h1 id="hour">00:00:00</h1>
-          <h1 id="min">00:00:00</h1>
-          <h1 id="sec">00:00:00</h1>
-          <h1 id="miliSec">00:00:00</h1>
+          <div class="row">
+              <h1 class="col-3" id="hour">00:</h1>
+              <h1 class="col-3" id="min">00:</h1>
+              <h1 class="col-3" id="sec">00:</h1>
+              <h1 class="col-3" id="miliSec">00</h1>
+          </div>
           <p class="card-text">Look at how many hours you've spent. You can do it! Way to go Jeff!</p>
           <button type="button" class="btn btn-primary timerToggle" id="timerToggle" data-bs-toggle="button">Start</button>
         </div>
