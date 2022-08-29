@@ -22,7 +22,7 @@ $('.timerCard').on('click', '.timerToggle', function() {
             if (ms === 10) {
                 ms = 0
                 s = s + 1
-                // console.log("beep")
+                console.log("beep")
             }
             if (s === 60) {
                 s = 0

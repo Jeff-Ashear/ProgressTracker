@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Progression Buddy</title>
     <link rel="icon" type="image/jpg" href="./assets/images/progress-icon-png-24.jpg">
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="/css/style.css">
 
 </head>
+
 <body>
     <nav class="navbar fixed-top navbar-dark bg-dark">
         <a class="navbar-brand text-center" href="#">Progress Buddy</a>
@@ -57,30 +60,44 @@
     <hr>
     <div class="card text-center">
         <div class="card-header">
-          Featured
+            Featured
         </div>
         <div class="card-body timerCard">
-          <h5 class="card-title">Jeff's Lifetime Codeclock</h5>
-          <div class="row">
-              <h1 class="col-3" id="hour">00:</h1>
-              <h1 class="col-3" id="min">00:</h1>
-              <h1 class="col-3" id="sec">00:</h1>
-              <h1 class="col-3" id="miliSec">00</h1>
-          </div>
-          <p class="card-text">Look at how many hours you've spent. You can do it! Way to go Jeff!</p>
-          <button type="button" class="btn btn-primary timerToggle" id="timerToggle" data-bs-toggle="button">Start</button>
+            <h5 class="card-title">Jeff's Lifetime Codeclock</h5>
+            <div class="row">
+                <span class="col-4"></span>
+                <!-- <h1 class="justify-content-center">
+                    <span class="col-1" id="hour">00:</span>
+                    <span class="col-1" id="min">00:</span>
+                    <span class="col-1" id="sec">00:</span>
+                    <span class="col-1" id="miliSec">00</span>
+                </h1> -->
+
+                <h1 class="col-1" id="hour">00:</h1>
+                <h1 class="col-1" id="min">00:</h1>
+                <h1 class="col-1" id="sec">00:</h1>
+                <h1 class="col-1" id="miliSec">00</h1>
+
+                <span class="col-4"></span>
+            </div>
+            <p class="card-text">Look at how many hours you've spent. You can do it! Way to go Jeff!</p>
+            <button type="button" class="btn btn-primary timerToggle" id="timerToggle"
+                data-bs-toggle="button">Start</button>
         </div>
         <div class="card-footer text-muted">
-          2 days ago
+            2 days ago
         </div>
-      </div>
-      <hr>
+    </div>
+    <hr>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- <script src="./js/javascript.js"></script> -->
     <script src="./js/careerClock.js"></script>
 
 </body>
+
 </html>
